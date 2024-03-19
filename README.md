@@ -31,11 +31,11 @@ La aplicación será abierta para cualquier persona que busque orientación en l
 - [ ] Investigar sobre Dart/Flutter.
 
 ### Integrantes
-- [Carlos Herreros]
+- [Carlos Herreros](https://github.com/carlosherrerosjerez)
 - [Programadora Backend | Fernanda Morales](https://github.com/Thitroy)
-- [Wilson Moreno]
-- [Testing | Carlos Sánchez]
-- [Jefe de Proyecto | Abel Rosales](https://github.com/CometArao)
+- [Wilson Moreno](https://github.com/TheDanger01)
+- [Testing | Carlos Sánchez](https://github.com/CarlxsSc)
+- [Lider de Proyecto | Abel Rosales](https://github.com/CometArao)
 
 
 
