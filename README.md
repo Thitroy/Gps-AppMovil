@@ -22,7 +22,7 @@ La aplicación será abierta para cualquier persona que busque orientación en l
 
 ## Puntos a definir
 
-- [ ] Definir la base de datos que se utilizará para la aplicación.
+- [ ] Ubicación por GPS completar
 - [ ] Confirmar los roles de los integrantes del proyecto.
 - [ ] Definir si se desarrollará para Android y iOS (Por Flutter).
 - [ ] Organizar las tareas y funciones a realizar.
