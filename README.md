@@ -37,6 +37,11 @@ La aplicación será abierta para cualquier persona que busque orientación en l
 - [Testing | Carlos Sánchez](https://github.com/CarlxsSc)
 - [Lider de Proyecto | Abel Rosales](https://github.com/CometArao)
 
+### Trello del equipo
+[Trello de equipo](https://trello.com/w/gpsappmovil)
+
+### Diseños en Figma
+[Maquetación en Figma](https://www.figma.com/file/okE0AJJju8IX8wBQItSLUV/UbicameApp---Primeros-dise%C3%B1os?type=design&node-id=2%3A14&mode=design&t=Muecft9YMDoTaOmY-1)
 
 
 
