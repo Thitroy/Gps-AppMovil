@@ -1,5 +1,6 @@
 import 'package:bienvenida/src/pages/home_screen.dart';
 import 'package:bienvenida/src/pages/splash_screen.dart';
+import 'package:bienvenida/src/pages/chat_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,6 +18,7 @@ class MainApp extends StatelessWidget {
       routes: {
         "splash": (context) => const SplashScreen(),
         "home": (context) => const HomeScreen(),
+        "chat": (context) => const ChatScreen(),
       },
     );
   }
