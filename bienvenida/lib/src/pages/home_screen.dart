@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-
 import 'package:bienvenida/src/pages/chat_screen.dart'; // Importa la pantalla del chatbot
+ // Asegúrate de que esta es la única importación de ChatScreen
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -8,30 +8,41 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Home'),
-      ),
       body: Stack(
         children: [
-          Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
-                Text("Bienvenido al home"),
-              ],
+          // Imagen del mapa
+          Positioned.fill(
+            child: Image.asset(
+              'assets/img-copia.jpg', // Asegúrate de que la ruta sea correcta
+              fit: BoxFit.cover,
             ),
           ),
+          // Botones en la parte inferior
           Positioned(
-            bottom: 16,
-            right: 16,
-            child: FloatingActionButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const ChatScreen()),
-                );
-              },
-              child: const Icon(Icons.chat),
+            bottom: 20,
+            left: 20,
+            child: Column(
+              children: [
+                // Botón Chatbot
+                FloatingActionButton(
+                  onPressed: () {
+                    Navigator.pushNamed(context, "chat");
+                  },
+                  backgroundColor: Colors.blue,
+                  child: const Icon(Icons.chat, color: Colors.white),
+                  heroTag: 'chatbot',
+                ),
+                const SizedBox(height: 10),
+                // Botón Ubicación de Salas
+                FloatingActionButton(
+                  onPressed: () {
+                    // Lógica para el botón de ubicación de salas
+                  },
+                  backgroundColor: Colors.green,
+                  child: const Icon(Icons.location_on, color: Colors.white),
+                  heroTag: 'location',
+                ),
+              ],
             ),
           ),
         ],
