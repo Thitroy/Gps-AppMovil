@@ -21,3 +21,4 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images.png
+    - assets/img-copia.jpg
