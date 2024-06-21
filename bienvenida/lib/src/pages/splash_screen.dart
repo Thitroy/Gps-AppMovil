@@ -1,6 +1,6 @@
 import 'package:bienvenida/src/pages/home_screen.dart';
+import 'package:bienvenida/src/pages/login_screen.dart';
 import 'package:flutter/material.dart';
-
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -17,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Future.delayed(d, () {
       Navigator.pushAndRemoveUntil(
         context,
-        MaterialPageRoute(builder: (context) => const HomeScreen()),
+        MaterialPageRoute(builder: (context) => const LoginScreen()),
         (route) => false,
       );
     });
@@ -39,9 +39,11 @@ class _SplashScreenState extends State<SplashScreen> {
               alignment: Alignment.bottomCenter,
               child: ListTile(
                 titleTextStyle: TextStyle(color: Colors.white, fontSize: 24),
-                subtitleTextStyle: TextStyle(color: Colors.white70, fontSize: 18), // Subtítulo
+                subtitleTextStyle:
+                    TextStyle(color: Colors.white70, fontSize: 18), // Subtítulo
                 title: Text("GPS App", textAlign: TextAlign.center),
-                subtitle: Text("Bienvenido estudiantes", textAlign: TextAlign.center), // Subtítulo
+                subtitle: Text("Bienvenido estudiantes",
+                    textAlign: TextAlign.center), // Subtítulo
               ),
             ),
           ),
