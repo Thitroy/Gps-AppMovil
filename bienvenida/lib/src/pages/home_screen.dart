@@ -37,6 +37,7 @@ class HomeScreen extends StatelessWidget {
                 FloatingActionButton(
                   onPressed: () {
                     // Lógica para el botón de ubicación de salas
+                    Navigator.pushNamed(context, "map");
                   },
                   backgroundColor: Colors.green,
                   child: const Icon(Icons.location_on, color: Colors.white),

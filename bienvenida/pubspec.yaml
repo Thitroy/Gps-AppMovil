@@ -11,6 +11,8 @@ dependencies:
     sdk: flutter
 
   google_maps_flutter: ^2.7.0
+  geocoding: ^2.0.4
+  flutter_typeahead: ^4.3.1
 
 dev_dependencies:
   change_app_package_name: ^1.1.0

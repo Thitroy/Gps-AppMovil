@@ -16,7 +16,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: "map",
+      initialRoute: "home",
       routes: {
         "map": (context) => const GoogleMapPage(),
         "splash": (context) => const SplashScreen(),
