@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:bienvenida/src/pages/chat_screen.dart'; // Importa la pantalla del chatbot
- // Asegúrate de que esta es la única importación de ChatScreen
+import '/src/pages/chat_screen.dart'; // Importa la pantalla del chatbot
+import '/src/pages/google_map_page.dart'; // Importa la pantalla del mapa
+// Asegúrate de que esta es la única importación de ChatScreen
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -36,7 +37,7 @@ class HomeScreen extends StatelessWidget {
                 // Botón Ubicación de Salas
                 FloatingActionButton(
                   onPressed: () {
-                    // Lógica para el botón de ubicación de salas
+                    Navigator.pushNamed(context, "map");
                   },
                   backgroundColor: Colors.green,
                   child: const Icon(Icons.location_on, color: Colors.white),
