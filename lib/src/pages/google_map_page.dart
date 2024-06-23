@@ -9,7 +9,7 @@ class GoogleMapPage extends StatefulWidget {
 }
 
 class _GoogleMapPageState extends State<GoogleMapPage> {
-  static const UBBGloriosa = LatLng(-36.822320815816, -73.01327110291612);
+  static const DONQUIJOTE = LatLng(-36.81738889658547, -73.02477464570254);
 
   @override
   void initState() {
@@ -20,8 +20,8 @@ class _GoogleMapPageState extends State<GoogleMapPage> {
   Widget build(BuildContext context) => Scaffold(
         body: GoogleMap(
           initialCameraPosition: CameraPosition(
-            target: UBBGloriosa,
-            zoom: 13,
+            target: DONQUIJOTE,
+            zoom: 17,
           ),
         ),
       );
